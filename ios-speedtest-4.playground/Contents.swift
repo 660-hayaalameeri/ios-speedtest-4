@@ -7,16 +7,19 @@ import UIKit
 //MARK: for- in loop خمس مرات باستخدام ال "iOS" قم بطباعه
 
 
-
-
+var ios = ["iOS","iOS","iOS","iOS","iOS"]
+for i in ios {
+    print(ios)
+}
 //: # 2️⃣ function
 
 // MARK: هذي الداله تقوم بضرب رقمين و ترجع الناتج
-
-func Multiplication(  number1 : Int ,  number2 : Int)
+var answer : Int
+func Multiplication(_  number1 : Int ,_  number2 : Int) -> Int
 {
-    
-    return number1 * number2
+ var answer =   number1 * number2
+   
+return answer
 }
 // MARK:   بما يناسب صيغه هذا الاستدعاء Multiplication قم بتعديل  الداله
 
@@ -26,7 +29,12 @@ Multiplication(5,7)
 
 
 //: # 3️⃣ struct
-// struct...
+struct Student{
+
+ var  name : String
+   var age : Int
+ var   hobbies : [ String]
+}
 
 
 
